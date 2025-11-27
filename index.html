@@ -309,6 +309,38 @@
             font-weight: 600;
         }
 
+        /* Founder Proof */
+        .founder-proof {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 32px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .founder-proof::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 3px;
+            height: 100%;
+            background: var(--accent);
+        }
+
+        .founder-text {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        .founder-text strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
         /* Quote */
         .quote-section {
             text-align: center;
@@ -440,6 +472,24 @@
             transform: translateY(-2px);
         }
 
+        /* Senior Statement */
+        .senior-statement {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            text-align: center;
+            margin: 60px 0;
+            font-style: italic;
+            line-height: 1.7;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .senior-statement strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
         /* Responsive */
         @media (max-width: 968px) {
             .header {
@@ -533,7 +583,7 @@
             <div class="photo-container">
                 <img src="https://i.ibb.co/pvTzd21j/sohamtruvaiit.jpg" alt="Soham Mehta" class="photo">
             </div>
-        </header> 
+        </header>
 
         <!-- Stats Section -->
         <section class="section fade-in">
@@ -556,23 +606,27 @@
                     <div class="stat-label">Top VCs(Accel,Nexus,<br>Sequoia) pitched<br>Multiple term sheets secured</div>
                 </div>
             </div>
-            <p style="color: var(--text-secondary); font-size: 1.1rem; line-height: 1.7; max-width: 800px;">
-                2x founder who actually ships. <br> Razorpay Rize Top 15 (backed by Peak XV & Lightspeed) → ₹3Mn+ resources + 10Mn+ customer base. <br>ICE 2025 finalist (only Indian team in the world). <br> WTFund Top 13% (Nikhil Kamath). <br> EF Round 2. <br> Top 0.2% AJVC. 
-                <br> Cross-functional operator across healthtech, e-com, D2C, proptech, B2B SaaS, AI infrastructure. <br> <br> I believe in creating Leverage instead of just execution. From founding profitable ventures to operating with CXOs, I build systems that scale and close deals that matter.
+            
+            <p class="senior-statement">
+                <strong>I believe in creating Leverage instead of just execution.</strong> From founding profitable ventures to operating with CXOs, I build systems that scale and close deals that matter. When I join your team, you're not hiring an employee-you're gaining a co-builder who moves with founder-level urgency.
             </p>
         </section>
 
         <!-- Experience Section -->
         <section class="section fade-in">
-            <h2 class="section-title">What I've Built & Scaled</h2>
-            
+            <h2 class="section-title">Founder-Level Execution</h2>
+
+            <div class="founder-proof">
+                <p class="founder-text">
+                    <strong>2x founder who ships.</strong><br>Razorpay Rize Top 15 (Peak XV & Lightspeed backed) → ₹3Mn+ resources + 10Mn+ customer base. <br>ICE 2025 finalist (only Indian team). <br>WTFund Top 13% (Nikhil Kamath). <br>EF Round 2. <br>Top 0.2% AJVC. <br>Cross-functional operator across healthtech, e-commerce, D2C, proptech, B2B SaaS, AI infrastructure.
+                </p>
+            </div>
+
             <div class="experience-item">
                 <div class="exp-header">
                     <div>
                         <div class="exp-title">Founder's Office, Lyzr AI</div>
-                        <div class="exp-company">
-                            <a href="https://lyzr.ai" target="_blank">AI Agent Infrastructure Platform Serving Fortune 500 Companies ($8Mn Series A, Rocketship.vc & Accenture-backed)</a>
-                        </div>
+                        <div class="exp-company"><a href="https://lyzr.ai" target="_blank">AI Agent Infrastructure Platform Serving Fortune 500 Companies ($8Mn Series A, Rocketship.vc & Accenture-backed)</a></div>
                     </div>
                     <div class="exp-meta">Oct 2025 – Present</div>
                 </div>
@@ -590,22 +644,20 @@
                 <div class="exp-header">
                     <div>
                         <div class="exp-title">Founder & CEO, Aphrelle</div>
-                        <div class="exp-company">
-                            <a href="https://www.linkedin.com/company/aphrelle" target="_blank">BITS Pilani's fastest-scaling student startup</a>
-                        </div>
+                        <div class="exp-company"><a href="https://www.linkedin.com/company/aphrelle" target="_blank">BITS Pilani's fastest-scaling student startup</a></div>
                     </div>
                     <div class="exp-meta">Apr 2024 – Present</div>
                 </div>
-                <p class="exp-description">₹2Mn+ revenue in 4 months, bootstrapped & profitable from Day 1</p>
+                <p class="exp-description">₹2Mn revenue in 4 months, bootstrapped & profitable from Day 1</p>
                 <ul class="achievements">
-                    <li><strong>Profitable from Day 1</strong> — 38-42% margins, zero external capital. Received pre-seed offers at ₹5-10Cr valuation, secured multiple term sheets</li>
-                    <li><strong>Recruited & led 10+ batchmates</strong> across ops, growth & tech while full-time in college. Built SOPs for order fulfillment, inventory, campus distribution</li>
-                    <li><strong>Dominated India's biggest competitions (Total Earnings: ₹3.4L)</strong> — SEEP (BITS), EO GSEA, Blueprint (IIT Delhi - Top 3/10,000+ startups), Empresario (IIT KGP), Techfest (IIT Bombay)</li>
+                    <li><strong>Profitable from Day 1</strong> 0 38-42% margins, zero external capital. Received pre-seed offers at ₹5-10Cr valuation, secured multiple term sheets</li>
+                    <li><strong>Recruited & led 10+ BITS Pilani batchmates</strong> across ops, growth & tech while full-time in college. Built SOPs for order fulfillment, inventory, campus distribution</li>
+                    <li><strong>Dominated India's biggest competitions</strong> (Total earnings: ₹3.4L) — SEEP (BITS), EO GSEA, Blueprint (IIT Delhi - Top 3/10,000+ startups), Empresario (IIT KGP), Techfest (IIT Bombay)</li>
                     <li><strong>WTFund Top 13% (Nikhil Kamath) + EF Round 2 + Top 0.2% AJVC + ICE 2025 Global Top 20</strong> (only Indian team)</li>
-                    <li><strong>Pivoted based on real feedback</strong> — 200+ customer interviews → D2C to tech-first marketplace model, rebuilt in 6 weeks</li>
-                    <li><strong>Built Personal Brand from scratch</strong> — drove 5Mn+ organic LinkedIn impressions, 40% revenue from word-of-mouth</li>
-                    <li><strong>Hustled 30+ top VCs</strong> — secured multiple term sheets from angels & institutional investors (Kalaari, Peak XV, Accel, Antler)</li>
-                    <li><strong>Recognised by UP Government</strong> — Startup India certified, DPIIT registered, ₹7.5L+ grants secured</li>
+                    <li><strong>Pivoted based on real feedback</strong> - 200+ customer interviews → D2C to tech-first marketplace model, rebuilt in 6 weeks</li>
+                    <li><strong>Built personal brand from scratch</strong> - drove 5Mn+ organic LinkedIn impressions, 40% revenue from word-of-mouth</li>
+                    <li><strong>Hustled 30+ top VCs</strong> - secured multiple term sheets from angels & institutional investors (Kalaari, Peak XV, Accel, Antler)</li>
+                    <li><strong>Recognized by UP Government</strong> - Startup India certified, DPIIT registered, ₹7.5L+ grants secured</li>
                 </ul>
             </div>
 
@@ -613,19 +665,17 @@
                 <div class="exp-header">
                     <div>
                         <div class="exp-title">Acquisitions, Truva</div>
-                        <div class="exp-company">
-                            <a href="https://www.truva.in" target="_blank">Proptech (Stellaris-backed, $7M Series A)</a>
-                        </div>
+                        <div class="exp-company"><a href="https://www.truva.in" target="_blank">Proptech (Stellaris-backed, $7M Series A)</a></div>
                     </div>
                     <div class="exp-meta">Jul 2025 – Nov 2025</div>
                 </div>
                 <p class="exp-description">Led Truperless buyer visit pilot & closed high-ticket deals</p>
                 <ul class="achievements">
-                    <li><strong>Built ₹45CR pipeline in first 2 weeks</strong> — sourced and qualified 15 deals (₹2-9Cr tickets each)</li>
-                    <li><strong>Brought their biggest client</strong> — Bennett Coleman & Co. ($1.3Bn revenue, having top 10 secondary real estate in India). Cold outreach to signed LOI in 3 weeks</li>
-                    <li><strong>Built seller trust for high-ticket deals</strong> — financial models, market comps</li>
-                    <li><strong>Leading Truva Select Program</strong> — HNI exclusive community + growth strategy for premium segment</li>
-                    <li><strong>Working on core projects</strong> with COO & CEO on seller acquisition playbooks</li>
+                    <li><strong>Built ₹45Cr pipeline in first 2 weeks</strong> - sourced and qualified 15 deals (₹2-9Cr tickets each)</li>
+                    <li><strong>Brought their biggest client</strong> - Bennett Coleman & Co. ($1.3Bn revenue, top 10 secondary real estate in India). Cold outreach to signed LOI in 3 weeks</li>
+                    <li><strong>Built seller trust for high-ticket deals</strong> - financial models, market comps</li>
+                    <li><strong>Led Truva Select Program</strong> - HNI exclusive community + growth strategy for premium segment</li>
+                    <li><strong>Worked on core projects</strong> with COO & CEO on seller acquisition playbooks</li>
                 </ul>
             </div>
 
@@ -633,34 +683,17 @@
                 <div class="exp-header">
                     <div>
                         <div class="exp-title">Founder's Office, Swift</div>
-                        <div class="exp-company">
-                            <a href="https://www.goswift.in/" target="_blank">E-com Tech Infra (Kalaari-backed, $2.2M Pre-Series A)</a>
-                        </div>
+                        <div class="exp-company"><a href="https://www.goswift.in/" target="_blank">E-commerce Tech Infrastructure (Kalaari-backed, $2.2M Pre-Series A)</a></div>
                     </div>
                     <div class="exp-meta">May 2025 – Jul 2025</div>
                 </div>
                 <p class="exp-description">Series A e-commerce platform (logistics, checkout, payments, analytics)</p>
                 <ul class="achievements">
-                    <li><strong>Solved 3 critical bottlenecks</strong> — customer success handoffs, ticket prioritization, courier visibility</li>
-                    <li><strong>Built ticket triage framework</strong> — escalation aging + seller sentiment analysis for high-risk flagging</li>
-                    <li><strong>Collaborated with tech</strong> — sentiment analysis pilots for auto-flagging at-risk sellers pre-churn</li>
-                    <li><strong>Designed internal workflows</strong> — real-time alerting for KAMs on courier/order delays via Slack</li>
-                    <li><strong>Led LinkedIn strategy</strong> — 350%+ profile visibility increase, 280%+ higher engagement vs competitors. Set brand foundation across website, social, leadership brand</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <div class="exp-header">
-                    <div>
-                        <div class="exp-title">Chief of Staff, SparshaCare Innovations</div>
-                        <div class="exp-company">HealthTech (Pressure-sensor monitoring solutions)</div>
-                    </div>
-                    <div class="exp-meta">Aug 2024 – Mar 2025</div>
-                </div>
-                <ul class="achievements">
-                    <li><strong>Concept to product-ready in 6 months</strong> — raised ₹10Mn+ govt & institutional grants (BIRAC)</li>
-                    <li><strong>Led business model + GTM</strong> — secured ₹2.5Mn+ B2B pre-orders pre-MVP (hospitals, eldercare facilities)</li>
-                    <li><strong>Full-stack execution</strong> — biz model, GTM, ops, fundraising, vendor negotiations, regulatory research</li>
+                    <li><strong>Solved 3 critical bottlenecks</strong> - customer success handoffs, ticket prioritization, courier visibility</li>
+                    <li><strong>Built ticket triage framework</strong> - escalation aging + seller sentiment analysis for high-risk flagging</li>
+                    <li><strong>Collaborated with tech</strong> - sentiment analysis pilots for auto-flagging at-risk sellers pre-churn</li>
+                    <li><strong>Designed internal workflows</strong> - real-time alerting for KAMs on courier/order delays via Slack</li>
+                    <li><strong>Led LinkedIn strategy</strong> - 350%+ profile visibility increase, 280%+ higher engagement vs competitors. Set brand foundation across website, social, leadership brand</li>
                 </ul>
             </div>
         </section>
@@ -674,20 +707,20 @@
 
         <!-- Education Section -->
         <section class="section fade-in">
-            <h2 class="section-title">Where It Started</h2>
+            <h2 class="section-title">Founder Foundation</h2>
             <div class="experience-item">
                 <div class="exp-header">
                     <div>
                         <div class="exp-title"><a href="https://www.bits-pilani.ac.in/" target="_blank">BITS Pilani Hyderabad Campus</a></div>
                         <div class="exp-company">Electrical & Electronics Engineering</div>
                     </div>
-                    <div class="exp-meta">Aug 2023 – Apr 2026 (Early graduation: 3 years instead of 4)</div>
+                    <div class="exp-meta">Aug 2023 – Apr 2026</div>
                 </div>
                 <ul class="achievements">
+                    <li><strong>Graduating in 3 years instead of 4</strong> - early graduation track</li>
                     <li><strong>Only 1st-year to close national TV sponsors</strong> (Dept. of Sponsorship & Marketing)</li>
-                    <li><strong>Wall Street Club</strong> — generated ₹50K+ revenue solo in 1 day during fest</li>
-                    <li><strong>Youngest team leader (19)</strong> — leading BITS Pilani's team to the Finals of Smart India Hackathon 25' in December, World's Biggest Open Innovation Model</li>
-                    <li>E-Cell member before scaling Aphrelle full-time</li>
+                    <li><strong>Wall Street Club</strong> - generated ₹50K+ revenue solo in 1 day during fest</li>
+                    <li><strong>Youngest team leader (19)</strong> - leading BITS Pilani's team to Finals of Smart India Hackathon 25' in December, world's biggest open innovation model</li>
                     <li><strong>Will drop out for the right opportunity</strong></li>
                 </ul>
             </div>
@@ -700,9 +733,7 @@
                 ₹2Mn revenue in 4 months. Multiple term sheets. ₹45Cr pipeline in 2 weeks. $5M Partnership deal. All before turning 20.<br><br>
                 I'm not looking for a job. I'm looking for the one founder crazy enough to think we can build something impossible together.
             </p>
-            <a href="mailto:sohammehta.e@gmail.com" class="cta-button">
-                Let's Build Your Legacy
-            </a>
+            <a href="mailto:sohammehta.e@gmail.com" class="cta-button">Let's Build Your Legacy</a>
             
             <div class="badges">
                 <span class="badge">Founder Mindset</span>
